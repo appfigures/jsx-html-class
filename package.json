@@ -1,0 +1,25 @@
+{
+  "name": "jsx-html-class",
+  "version": "1.0.0",
+  "description": "Babel plugin to allow the use of \"class\" instead of \"className\" in JSX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appfigures/jsx-html-class.git"
+  },
+  "keywords": [
+    "babel",
+    "jsx",
+    "react",
+    "className"
+  ],
+  "author": "Charlie Martin <charlie@appfigures.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appfigures/jsx-html-class/issues"
+  },
+  "homepage": "https://github.com/appfigures/jsx-html-class"
+}
