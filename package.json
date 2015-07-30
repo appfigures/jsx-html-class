@@ -1,6 +1,6 @@
 {
   "name": "jsx-html-class",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Babel plugin to allow the use of \"class\" instead of \"className\" in JSX",
   "main": "index.js",
   "scripts": {

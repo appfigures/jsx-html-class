@@ -1,0 +1,101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/charlie/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/Users/charlie/.npm/jsx-html-class/1.0.1/package.tgz', '.' ]
+12 verbose tarball /Users/charlie/.npm/jsx-html-class/1.0.1/package.tgz
+13 verbose folder .
+14 info prepublish jsx-html-class@1.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/charlie/.npm/1f1177db-tar.lock
+17 silly lockFile 0100eba5-jsx-html-class-1-0-1-package-tgz tar:///Users/charlie/.npm/jsx-html-class/1.0.1/package.tgz
+18 verbose lock tar:///Users/charlie/.npm/jsx-html-class/1.0.1/package.tgz /Users/charlie/.npm/0100eba5-jsx-html-class-1-0-1-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 0100eba5-jsx-html-class-1-0-1-package-tgz tar:///Users/charlie/.npm/jsx-html-class/1.0.1/package.tgz
+22 silly lockFile 0100eba5-jsx-html-class-1-0-1-package-tgz tar:///Users/charlie/.npm/jsx-html-class/1.0.1/package.tgz
+23 silly lockFile 5cf2c5a5-npm-jsx-html-class-1-0-1-package /Users/charlie/.npm/jsx-html-class/1.0.1/package
+24 verbose lock /Users/charlie/.npm/jsx-html-class/1.0.1/package /Users/charlie/.npm/5cf2c5a5-npm-jsx-html-class-1-0-1-package.lock
+25 silly lockFile 5cf2c5a5-npm-jsx-html-class-1-0-1-package /Users/charlie/.npm/jsx-html-class/1.0.1/package
+26 silly lockFile 5cf2c5a5-npm-jsx-html-class-1-0-1-package /Users/charlie/.npm/jsx-html-class/1.0.1/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'jsx-html-class',
+29 silly publish   version: '1.0.1',
+29 silly publish   description: 'Babel plugin to allow the use of "class" instead of "className" in JSX',
+29 silly publish   main: 'index.js',
+29 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'https://github.com/appfigures/jsx-html-class.git' },
+29 silly publish   keywords: [ 'babel', 'jsx', 'react', 'className' ],
+29 silly publish   author: { name: 'Charlie Martin', email: 'charlie@appfigures.com' },
+29 silly publish   license: 'ISC',
+29 silly publish   bugs: { url: 'https://github.com/appfigures/jsx-html-class/issues' },
+29 silly publish   homepage: 'https://github.com/appfigures/jsx-html-class',
+29 silly publish   readme: '# jsx-html-class\n[Babel](https://babeljs.io/) plugin to allow the use of "class" instead of "className" in JSX\n\nhttps://www.npmjs.com/package/jsx-html-class\n\n## Motivation\n\nReact.js requires we use the attribute `className` instead of the traditional `class` in JSX elements.\n\n```javascript\nclass MyComponent extends React.Component {\n  render() {\n    return <div className="container">Hello world</div>;\n  }\n}\n```\n\nIf you are human, you\'ve forgotten this at least once. If you\'re like me, you forget this all the time. Fortunately, React warns us...\n\n> Warning: Unknown DOM property class. Did you mean className?\n\n\nHowever, considering we are already transpiling this code with [Babel](https://babeljs.io/), why not just convert `class` to `className` and never think about this again?\n\nThis is especially useful if you are lucky enough to have designers writing JSX or you often copy & paste HTML into your React components.\n\n## Installation\n\n```\nnpm install --save-dev jsx-html-class\n```\n\n#### CLI\n```\nbabel --plugins jsx-html-class script.js\n```\n\n#### .babelrc\n```\n{\n  "plugins": ["jsx-html-class"]\n}\n```\n\n#### Babelify\n```\nbrowserify({\n  // etc etc\n  transform: [\n    babelify.configure({\n      plugins: ["jsx-html-class"]\n    })\n  ]\n});\n```\n\nNow you can freely use either `class` or `className` and safely ensure your HTML classes will be properly rendered.\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: 'e9794a823cc176c258d18dcb021ecd9d6b271b45',
+29 silly publish   _id: 'jsx-html-class@1.0.1',
+29 silly publish   _shasum: '53a27f9a6fb34cb712f5c3b4099b4e1c0ee7de3e',
+29 silly publish   _from: '.' }
+30 verbose request where is /jsx-html-class
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 2c78f34c380faae4
+33 verbose url raw /jsx-html-class
+34 verbose url resolving [ 'https://registry.npmjs.org/', './jsx-html-class' ]
+35 verbose url resolved https://registry.npmjs.org/jsx-html-class
+36 verbose request where is https://registry.npmjs.org/jsx-html-class
+37 info trying registry request attempt 1 at 18:26:36
+38 http PUT https://registry.npmjs.org/jsx-html-class
+39 http 403 https://registry.npmjs.org/jsx-html-class
+40 verbose headers { 'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '95',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   date: 'Thu, 30 Jul 2015 22:26:37 GMT',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-served-by': 'cache-atl6235-ATL',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1438295197.434722,VS0,VE452' }
+41 error publish Failed PUT 403
+42 error Error: "You cannot publish over the previously published version 1.0.1." : jsx-html-class
+42 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+42 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+42 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:944:16
+42 error     at process._tickCallback (node.js:442:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Darwin 14.4.0
+45 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+46 error cwd /Users/charlie/Desktop/Projects/jsx-html-class
+47 error node -v v0.10.36
+48 error npm -v 1.4.28
+49 verbose exit [ 1, true ]
