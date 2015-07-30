@@ -20,7 +20,7 @@ If you are human, you've forgotten this at least once. If you're like me, you fo
 > Warning: Unknown DOM property class. Did you mean className?
 
 
-However, considering we are already transpiling this code with [Babel](https://babeljs.io/), why not just convert `class` to `className` with [Babel](https://babeljs.io/) and never think about this again?
+However, considering we are already transpiling this code with [Babel](https://babeljs.io/), why not just convert `class` to `className` and never think about this again?
 
 This is especially useful if you are lucky enough to have designers writing JSX or you often copy & paste HTML into your React components.
 
@@ -53,3 +53,5 @@ browserify({
   ]
 });
 ```
+
+Now you can freely use either `class` or `className` and safely ensure your HTML classes will be properly rendered.
